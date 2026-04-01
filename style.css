@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.nav_bg{
+    background-image: url("assets/bg.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1460px, 100vw);
+    position: relative;
+}
+
+.box{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+}
+
+nav{
+    max-width: 65vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+
+.logo{
+    width: 140px;
+    position: relative;
+    z-index: 2;
+}
+
+nav button, select{
+    position: relative;
+    z-index: 2;
+    font-size: 1.05rem;
+    border: none;
+    border-radius: calc(0.25rem - 0.0625rem);
+    color: white;
+}
+nav > div :nth-child(1){
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px 15px;
+}
+
+select > option{
+    color: black;
+}
+
+nav > div > button{
+    background-color: rgb(229, 9, 20);
+    padding: 5px 10px;
+    font-weight: 540;
+    margin: 0px 0px 0px 10px;
+}
+nav > div > button:hover{
+    background-color: rgb(192, 28, 36);
+    cursor: pointer;
+}
+
+.text_mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25vh;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    width: 600px;
+}
+
+.text_mail > :nth-child(1){
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -1px;
+}
+
+.text_mail > :nth-child(2){
+    font-size: 1.18rem;
+    font-weight: 680;
+    line-height: 70px;
+}
+
+.text_mail > :nth-child(3){
+    font-size: 1rem;
+    font-weight: 440;
+    letter-spacing: -0.3px;
+}
+
+.mail_id{
+    margin: 17px 0px 0px 0px;
+}
+
+#mail{
+    padding: 18px;
+    margin: 5px;
+    border-radius: calc(0.25rem - 0.0625rem);
+    border: none;
+    width: 380px;
+    background-color: rgba(5, 5, 5, 0.5);
+    border: 1px solid white;
+    color: white;
+}
+.get_started{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 15px 28px 15px 20px;
+    border-radius: calc(0.25rem - 0.0625rem);
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.get_started:hover{
+    background-color: rgb(192, 28, 36);
+    cursor: pointer;
+}
+
+.separation{
+    background-color: rgb(59, 59, 59);
+    height: 5px;
+}
+
+
+.first_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    padding: 0px 0px 30px 0px;
+    width: 65vw;
+    gap: 70px;
+}
+
+.first_section > div{
+    display: flex;
+    flex-direction: column;
+}
+.first_section > div :first-child, .second_section > div :first-child{
+    font-size: 42px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+.first_section > div :nth-child(2), .second_section > div :nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.first_section :nth-child(2){
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.first_section :nth-child(2) > img{
+    width: 555px;
+    position: relative;
+    z-index: 2;
+}
+.first_section :nth-child(2) > video{
+    position: absolute;
+    top: 86px;
+    left: 73px;
+    width: 406px;
+}
+
+.second_section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58vw;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.second_section img{
+    width: 450px;
+}
+
+.second_section :nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
