@@ -154,12 +154,12 @@ nav > div > button:hover{
     display: flex;
     flex-direction: column;
 }
-.first_section > div :first-child, .second_section > div :first-child, .third > div :first-child{
+.first_section > div :first-child, .second_section > div :first-child, .third > div :first-child, .kid_section > div :first-child{
     font-size: 42px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
 }
-.first_section > div :nth-child(2), .second_section > div :nth-child(2), .third > div :nth-child(2){
+.first_section > div :nth-child(2), .second_section > div :nth-child(2), .third > div :nth-child(2), .kid_section > div :nth-child(2){
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     line-height: 35px;
@@ -209,23 +209,39 @@ nav > div > button:hover{
     width: 60vw;
     gap: 70px;
     margin: auto;
-    padding: 50px 0px 50px 0px;
+    padding: 70px 0px 85px 0px;
 }
-.third :nth-child(1){
+.third :nth-child(2){
     display: flex;
     flex-direction: row;
     position: relative;
 }
-.third :nth-child(1) > video{
+.third :nth-child(2) > video{
     position: absolute;
     top: 25px;
     left: 68px;
     width: 340px;
 }
-.third :nth-child(1) > img{
+.third :nth-child(2) > img{
     position: relative;
 }
-.third :nth-child(2){
+.third :nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+
+.kid_section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.kid_section :nth-child(2){
     display: flex;
     flex-direction: column;
 }
